@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta mame="keywords" content="figuritas, mundial, 2022, Argentina, argentina, Messi, messi">
+    <meta name="description"
+        content="Queremos agilizar nuestras ventas de figuritas y hacerlo de una manera más ordenada mediante este formulario">
+    <meta author="matias velazco">
+    <title>Figu-Ya!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="title">Formulario de encuesta</h1>
+        </header>
+        <article>
+            <section>
+                <p id="description">El álbum completo consta de 638 figuritas, las cuales incluyen 50 stickers
+                    especiales.
+                    Además, y
+                    por primera vez desde
+                    México 1970, los hinchas podrán encontrar figuritas Panini Extra. Tal y como lo expresa en sus redes
+                    sociales,
+                    son
+                    stickers “súper raros” que están insertados al azar entre los sobres de figuritas.</p>
+            </section>
+            <img src="https://bolavip.com/__export/1661009939067/sites/bolavip/img/2022/08/20/album_1.jpg_242310155.jpg"
+                alt="Albúm mundial panini Qatar 2022 tapa blanca.">
+        </article>
+
+        <h2>Datos personales necesarios para retirar:</h2>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Ingrese su nombre: <input id="name" value="name" type="text"
+                        placeholder="Ingres su nombre aquí" required /></label>
+                <label for="email" id="email-label" for="email">Ingrese su email: <input id="email" value="email"
+                        type="email" placeholder="Ingres su email aquí" required /></label>
+                <label for="cantidad" id="number-label" for="cantidad">Ingrese el número de sobres que desea
+                    retirar: <input id="number" value="cantidad" type="number" min="0" max="70"
+                        placeholder="Ingres la cantidad aquí" required />
+                </label>
+
+
+                <h2>Datos de encuentro:</h2>
+                <p>¿Qué días deséa retirarlos?</p>
+                <fieldset>
+                    <select id="dropdown" name="dropdown">
+                        <option value="0">--seleccione día</option>
+                        <option value="1">Martes a Jueves</option>
+                        <option valuw="2">Sábados</option>
+                    </select>
+                    <input type="checkbox" name="zona-retiro" value="zona-retiro" required />
+                    <input type="checkbox" name="zona-retiro" value="zona-retiro" required />
+                    <textarea rows="3" cols="3"
+                        placeholder="¿Alguna especificación, ingrésela aquí? Ej: Entregar en bolsa, caja, Etc"></textarea>
+                </fieldset>
+                <input type="radio" value="radio" name="radio" />
+                <input type="radio" value="radio" name="radio" />
+                <input type="submit" id="submit" value="submit" />
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Esta encuesta está disponible hasta el cierre de nuestros locales 17/12/2022.</p>
+
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Visita nuestro facebook para revisar más productos</a>
+        </p>
+        <p class="address">123 Figu-Ya</p>
+    </footer>
+
+</body>
+
+</html>
